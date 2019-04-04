@@ -1,0 +1,198 @@
+
+.facebook{
+	font-family: 'Lobster', cursive;
+	font-size: 22px;
+}
+
+.ico{
+	text-decoration: none;
+}
+
+.vantana{
+	margin-top: 0px;
+}
+
+img{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.col-md-4{
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #fff;
+}
+
+.col-6 {
+	margin-top: 30px;
+	ax-width: 33.333333%;
+
+}
+
+.grilla{
+	background-color: #e2e2e2;
+}
+
+.marco{
+	background-color: #fff;
+}
+
+p{
+	text-align: left;
+}
+
+span {
+	text-align: right;
+}
+
+.car{
+	width: 100%;
+}
+
+.pildora{
+	background-color: #fff;
+}
+
+.vertical{
+	background-color: #e2e2e2;
+}
+
+.camara{
+	padding: 10px;
+	border:  1px solid #b4afaf;
+	margin-right: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.local{
+	padding: 10px;
+	border:  1px solid #b4afaf;
+	margin-right: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.carta {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* esta linea convierte los objetos en 3d */
+    transition: 2s;
+}
+
+.carta:hover {
+    transform: rotateZ(360deg);
+}
+
+.lado {
+    width: 100%;
+    height:  100%;
+    backface-visibility: hidden;  /* oculta el lado de atras de los elementos */
+    position: absolute;
+}
+
+.frente {
+    background: crimson;
+    box-shadow: 0px 0px 5px black;
+}
+
+.atras {
+    background: linear-gradient(to bottom, rgba(254,250,240,1) 0%, rgba(253,238,196,1) 100%);
+    transform: rotateX(180deg);
+}
+
+#nav-home .row {
+	height: 300px;
+	margin-top: 30px;
+}
+
+.fixed:hover {
+	/*filter: opacity(1);*/
+	transition-duration: 2s;
+	-webkit-transform: scale(-1) rotateX(540deg) rotateY(540deg);
+}
+
+.fixed-profile:hover {
+	/*filter: opacity(1);*/
+	transition-duration: 2s;
+	-webkit-transform: scale(1.5);
+}
+
+.navbar-brand {
+	position: absolute;
+    left: 90px;
+}
+
+.card-header .navbar .navbar-brand {
+	text-decoration: underline;
+}
+
+.card-header .navbar .navbar-brand:hover {
+	left: 250px;
+	color: white;
+	transition: 2s;
+}
+
+.image-profile {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.actions-container {
+	border-bottom: solid 1px #ccc;
+}
+
+.actions-container-img {
+	border-radius: 30px;
+}
+
+.actions {
+	width: 40px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+.actions-right {
+	width: 40px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	float: right;
+}
+
+.actions:hover, .actions-right:hover {
+	opacity: 0.5;
+}
+
+.likes {
+	margin: 0 0 10px 10px;
+	font-weight: bold;
+}
+
+.menagerie {
+	animation-name: menagerie;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes menagerie {
+	0% {color: #ff0;}
+	25% {color: #000;}
+	50% {color: #ff0;}
+	75% {color: #000;;}
+	100% {color: #ff0;}
+}
